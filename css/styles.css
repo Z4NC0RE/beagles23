@@ -18,6 +18,19 @@ header {
 	background-position: 23% 23%;
 }
 
+header h1 {
+	margin-left: 35%;
+	color: #734f2f;
+	font-weight: bold;
+	font-size: 7em;
+}
+
+header h3 {
+	margin-left: 45%;
+	color: #11181e;
+	font-size: 3em;
+}
+
 .hnav {
 	padding: 5px 0;
 	width: 100%;
@@ -33,7 +46,7 @@ header {
 	display: inline-block;
 	list-style: none;
 	width: 15%;
-	background-color: red;
+	background-color: #11181e;
 	margin-top: .8%;
 }
 
@@ -43,8 +56,33 @@ header {
 	font-size: 1.5em;
 }
 
+.hnav ul li:hover {
+	background-color: #734f2f;
+}
+
 h1 {
 	
+}
+
+main {
+	width: 100%;
+	min-height: 500px;
+}
+
+#container {
+	padding: 3% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.8em;
+	color: #734f2f;
+}
+#container img {
+	margin: 0 auto;
+	float: left;
+	padding-right: 2%;
+	max-width: 600px;
+	max-height: 500px;
 }
 
 h2 {
@@ -56,7 +94,35 @@ blockquote {
 }
 
 table {
-	
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 1em;
+    border-color: #734f2f;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+input {
+    height: 2em;
+    width: 17em;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #734f2f;
+    color: aliceblue;
+    border: 5px double black;
+}
+
+.frmButton {
+	width: 10em;
 }
 
 footer {
@@ -78,7 +144,7 @@ footer {
 	display: inline-block;
 	list-style: none;
 	width: 15%;
-	background-color: red;
+	background-color: #11181e;
 	margin-top: .8%;
 }
 
@@ -86,4 +152,12 @@ footer {
 	color: #e4f2ea;
 	text-decoration: none;
 	font-size: 1.5em;
+}
+
+.fnav ul li:hover {
+	background-color: #734f2f;
+}
+
+footer h4, footer h5, footer h6 {
+	text-align: center;
 }
